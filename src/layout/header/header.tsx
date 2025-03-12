@@ -48,7 +48,6 @@ const Header = () => {
                 {/* header navbar start */}
                 <Navbar />
                 {/* header navbar end */}
-                <LanguageSwitcher />
               </div>
             </nav>
           </div>

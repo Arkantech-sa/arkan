@@ -9,6 +9,7 @@ import icon_1 from "@/assets/images/icon/icon_14.svg";
 import icon_2 from "@/assets/images/icon/icon_15.svg";
 import menu_data from "@/data/menu-data";
 import { usePathname } from "next/navigation";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Navbar = ({ logo_white = false }: { logo_white?: boolean }) => {
   const pathname = usePathname()
@@ -92,6 +93,9 @@ const Navbar = ({ logo_white = false }: { logo_white?: boolean }) => {
       ))}
       <li className="d-md-none ps-2 pe-2">
         <ul className="style-none contact-info m0 pt-30">
+          <li className="d-flex align-items-center p0 mt-15">
+            <LanguageSwitcher />
+          </li>
           <li className="d-flex align-items-center p0 mt-15">
             <Image src={icon_1} alt="icon" className="lazy-img icon me-2" />
             <Link href="mailto:info@arkantech.sa" className="fw-500">
