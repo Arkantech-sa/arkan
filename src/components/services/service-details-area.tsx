@@ -111,7 +111,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="contact-banner text-center mt-40 lg-mt-20">
                   <h3 className="mb-20">Any Questions? Let’s talk</h3>
-                  <Link href="/contact" className="tran3s fw-500">Let’s Talk</Link>
+                  <Link href="/contact-us" className="tran3s fw-500">Let’s Talk</Link>
                 </div>
               </aside>
             </div>

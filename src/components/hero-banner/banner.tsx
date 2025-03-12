@@ -45,6 +45,8 @@ const HeroBanner = () => {
         <div className="media-wrapper ps-5 pe-5 d-flex align-items-end">
           <Image
             src={data?.[0]?.image || banner}
+            width={800}
+            height={800}
             alt="image"
             className="lazy-img me-auto ms-auto bounce_ani"
             style={imgStyle}

@@ -59,9 +59,9 @@ const AboutUs = ({ style_2 = false }: { style_2?: boolean }) => {
                   <Link href="/about-us" className="btn-four mt-15 me-4">
                     More About us
                   </Link>
-                  <Link href="/contact" className="btn-three icon-link mt-15">
+                  <Link href="/contact-us" className="btn-three icon-link mt-15">
                     <span>Request a Callback</span>
-                    <Image src={icon} alt="icon" className="lazy-img icon ms-1" />
+                    <Image src={icon} alt="icon" width={20} height={20} className="lazy-img icon ms-1" />
                   </Link>
                 </div>
               </div>

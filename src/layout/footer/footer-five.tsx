@@ -17,11 +17,11 @@ const FooterFive = () => {
             </h2>
             <div className="btn-group d-block d-lg-flex justify-content-between align-items-center">
               <h3>
-                <Link href={"/contact"}>
+                <Link href={"/contact-us"}>
                   Let’s <span>Discuss & Start.</span>
                 </Link>
               </h3>
-              <Link href="/contact"
+              <Link href="/contact-us"
                 className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
               >
                 <i className="bi bi-arrow-right"></i>
