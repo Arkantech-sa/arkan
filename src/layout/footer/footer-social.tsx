@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "@/i18n/navigation";
+import Link from "next/link";
 
 const FooterSocial = () => {
   return (
@@ -11,7 +11,7 @@ const FooterSocial = () => {
       </li>
       <li>
         <Link href="https://dribbble.com/" target="_blank">
-          <i className="bi bi-linkedin"></i>
+          <i className="bi bi-dribbble"></i>
         </Link>
       </li>
       <li>

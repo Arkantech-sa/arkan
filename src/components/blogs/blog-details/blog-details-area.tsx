@@ -3,7 +3,7 @@ import BlogDetailsCommentArea from "./blog-details-comment-area";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 // internal
-import BlogSidebar from "../blog-sidebar";
+// import BlogSidebar from "../blog-sidebar";
 import blog_1 from "@/assets/images/blog/blog_img_08.jpg";
 import blog_2 from "@/assets/images/blog/blog_img_16.jpg";
 import blog_3 from "@/assets/images/blog/blog_img_17.jpg";
@@ -159,7 +159,7 @@ const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
 
           <div className="col-lg-4 col-md-8">
             {/* blog sidebar start */}
-            <BlogSidebar />
+            {/* <BlogSidebar /> */}
             {/* blog sidebar end */}
           </div>
         </div>

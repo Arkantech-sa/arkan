@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Contact us Page",
 };
 
-const ContactPage = ({ locale }: { locale: string }) => {
+const ContactPage = (locale: any) => {
 
     return (
         <div className="main-page-wrapper step-header">
