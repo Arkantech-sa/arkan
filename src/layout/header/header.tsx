@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`theme-main-menu menu-style-five ${sticky ? "fixed" : ""}`}>
+    <header className={`theme-main-menu menu-style-five`}>
       <div className="inner-content">
         <div className="top-header position-relative">
           <div className="d-flex align-items-center justify-content-between">
@@ -48,6 +48,7 @@ const Header = () => {
                 {/* header navbar start */}
                 <Navbar />
                 {/* header navbar end */}
+                <LanguageSwitcher />
               </div>
             </nav>
           </div>
