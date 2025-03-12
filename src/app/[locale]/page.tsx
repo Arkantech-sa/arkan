@@ -14,6 +14,8 @@ import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 
 export const metadata: Metadata = {
   title: "Arkantech | Home",
+  description: "Arkantech Home Page",
+  keywords: "Arkantech Home Page",
 };
 
 export default function HomePage() {
