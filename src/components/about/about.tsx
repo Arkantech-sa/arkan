@@ -91,7 +91,7 @@ const AboutUs = ({ style_2 = false }: { style_2?: boolean }) => {
                   <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-30">
                     Your distinctive digital guide to technological solutions, business realms, and modern-age ideas.
                   </p>
-                  <Link href="/contact" className="btn-three icon-link mt-15 md-mb-40">
+                  <Link href="/about-us" className="btn-three icon-link mt-15 md-mb-40">
                     <span>More About us</span>
                     <Image src={icon} alt="icon" className="lazy-img icon ms-1" />
                   </Link>

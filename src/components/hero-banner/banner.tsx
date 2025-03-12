@@ -4,8 +4,6 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 // internal
 import banner from "@/assets/images/assets/banner.png";
-import screen from "@/assets/images/assets/screen_18.png";
-import sticker from "@/assets/images/assets/sticker.png";
 import { useTranslations } from "next-intl";
 import { useBanner } from "@/hooks/useHome";
 
@@ -36,7 +34,7 @@ const HeroBanner = () => {
               </p>
               <div className="d-md-inline-flex flex-wrap align-items-center">
                 <div className="me-5 mt-15">
-                  <Link href={data?.[0]?.action || "/contact"} className="btn-sixteen tran3s">
+                  <Link href="/contact-us" className="btn-sixteen tran3s">
                     Get Started
                   </Link>
                 </div>
@@ -46,7 +44,7 @@ const HeroBanner = () => {
         </div>
         <div className="media-wrapper ps-5 pe-5 d-flex align-items-end">
           <Image
-            src={banner}
+            src={data?.[0]?.image || banner}
             alt="image"
             className="lazy-img me-auto ms-auto bounce_ani"
             style={imgStyle}
