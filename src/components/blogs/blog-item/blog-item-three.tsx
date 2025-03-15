@@ -23,7 +23,7 @@ const BlogItemThree = ({ blog }: { blog: IBlog }) => {
         style={{ backgroundImage: `url(${blog.img.src})` }}
       >
         <Link href={`/blog-details/${blog.id}`}
-          className="round-btn stretched-link rounded-circle d-flex align-items-center justify-content-center tran3s"
+          className="round-btn stretched-link rounded-rect d-flex align-items-center justify-content-center tran3s"
         >
           <i className="bi bi-arrow-up-right"></i>
         </Link>

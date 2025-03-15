@@ -323,8 +323,8 @@
 // BLock Feature Nine
 .block-feature-nine {
     z-index: 1;
-    background: #000;
-    border-radius: 30px 30px 100px 100px;
+    background: $light-bg;
+    // border-radius: 30px 30px 100px 100px;
     &:after {
         content: '';
         position: absolute;
@@ -332,25 +332,25 @@
         height: 39%;
         inset-inline-start: 0;
         top:0;
-        background: #cee8f7;
-        border-radius: 30px 30px 0 0;
+        background: $text-dark;
+        // border-radius: 30px 30px 0 0;
         z-index: -1;
     }
-    &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 50px;
-        inset-inline-start: 0;
-        top:0;
-        background: #000;
-        z-index: -1;
-    }
+    // &:before {
+    //     content: '';
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 50px;
+    //     inset-inline-start: 0;
+    //     top:0;
+    //     background: $light-bg;
+    //     z-index: -1;
+    // }
     .heading {
         font-size: 85px;
         line-height: 1.411em;
         span {
-            color: $color-six;
+            // color: $color-six;
             text-decoration-line: underline;
             text-decoration-thickness: 4px;
         }
@@ -360,7 +360,7 @@
             display: inline-flex;
             align-items: center;
             background: $color-six;
-            border-radius: 50%;
+            border-radius: 0.8rem;
             position: relative;
             margin-inline-start: 100px;
             @include transition(0.2s);
@@ -371,7 +371,7 @@
                 height: 3px;
                 inset-inline-start: -85px;
                 top:calc(50% - 3px);
-                background: #fff;
+                background: $text-dark;
             }
             &:hover {
                 background: $color-four;
@@ -523,6 +523,7 @@
 }
 // Text Feature One
 .text-feature-one {
+    background: $light-bg-one;
     .line-wrapper {
         border-top: unset;
         // border-top: 1px dashed #a7a7a7;
@@ -1090,4 +1091,8 @@
         bottom: 30%;
         width: 18.64%;
     }
+}
+
+.rounded-rect {
+    border-radius: 0.8rem;
 }

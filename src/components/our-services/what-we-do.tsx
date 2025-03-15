@@ -36,7 +36,7 @@ const WhatWeDo = () => {
     <div className="block-feature-nine position-relative pt-80 pb-150 lg-pb-80">
       <div className="container">
         <div className="title-four text-center mb-30 lg-mb-10">
-          <h2>What We Do</h2>
+          <h2 className="text-white">What We Do</h2>
         </div>
 
         <div className="row gx-xl-5 justify-content-center">
@@ -69,7 +69,7 @@ const WhatWeDo = () => {
           </div>
         </div>
 
-        <h3 className="heading font-magnita text-white mt-110 lg-mt-80">
+        <h3 className="heading font-magnita text-dark mt-110 lg-mt-80">
           Design, <span>Marketing,</span> Branding, <span>Development</span> &
           more.{" "}
           <Link href="#">

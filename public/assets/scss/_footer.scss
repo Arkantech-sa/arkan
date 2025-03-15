@@ -377,13 +377,14 @@
         z-index: -1;
     }
     h2 {
+        color: $light-bg-one;
         font-size: 132px;
         line-height: 1.185em;
     }
     .btn-group {
         padding: 15px 15px 15px 55px;
-        border-radius: 80px;
-        background: $color-six;
+        border-radius: 2rem;
+        background: $light-bg-one;
         margin: 85px 0 110px;
         h3 {
             font-size: 70px;
@@ -401,8 +402,9 @@
             height: 125px;
             text-align: center;
             font-size: 55px;
-            color: $color-six;
-            background: #e9eef1;
+            color: $text-dark;
+            border: 1px solid $text-dark;
+            border-radius: 1.5rem;
             &:hover, &:focus {
                 background: $color-two;
                 color: #fff;
@@ -412,7 +414,7 @@
     .social-icon {
         margin: 0 -20px;
         a {
-            color: #fff;
+            color: $light-bg-one;
             margin: 0 20px;
             &:hover {
                 color: $color-six;
@@ -425,7 +427,7 @@
             font-size: 18px;
             font-weight: 500;
             margin: 0 12px;
-            color: #fff;
+            color: $light-bg-one;
             &:hover {
                 text-decoration: underline;
             }

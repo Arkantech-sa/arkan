@@ -24,7 +24,7 @@ function BlogItem({ blog }: { blog: IBlog }) {
         </div>
         <div className="d-flex justify-content-between align-items-center mt-auto">
           <Link href="javascript:void(0)"
-            className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
+            className="round-btn rounded-rect d-flex align-items-center justify-content-center tran3s"
           >
             <i className="bi bi-arrow-up-right"></i>
           </Link>
@@ -37,7 +37,7 @@ function BlogItem({ blog }: { blog: IBlog }) {
 const BlogsHomeFive = () => {
   const blog_items = blog_data.filter((b) => b.page === "home-5");
   return (
-    <div className="blog-section-five position-relative border-100 pt-100 lg-pt-80">
+    <div className="blog-section-five position-relative pt-100 lg-pt-80">
       <div className="container">
         <div className="position-relative">
           <div className="row">
@@ -51,7 +51,7 @@ const BlogsHomeFive = () => {
           <div className="section-btn">
             <Link
               href="javascript:void(0)"
-              className="btn-nine rounded-circle d-inline-flex align-items-center justify-content-center tran3s"
+              className="btn-nine rounded-rect d-inline-flex align-items-center justify-content-center tran3s"
             >
               <i className="bi bi-arrow-up-right"></i>
             </Link>

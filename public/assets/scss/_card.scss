@@ -481,13 +481,13 @@
 }
 // Card Twenty
 .card-style-twenty {
-    background: #fff;
-    border-radius: 20px;
+    // background: #fff;
     padding: 35px 35px 40px;
     .icon {
         width: 60px;
         height: 60px;
         border: 1px solid #000;
+        border-radius: 0.8rem;
     }
     .text {
         width: calc(100% - 60px);

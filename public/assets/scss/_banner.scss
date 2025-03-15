@@ -186,11 +186,11 @@
 }
 // Hero Banner Five
 .hero-banner-five {
-    background: #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    // background: #000;
+    // border-top: 2px solid #000;
+    // border-bottom: 2px solid #000;
     .bg-wrapper {
-        background: #fff;
+        background: $light-bg-one;
         border-radius: 30px;
         z-index: 1;
     }
@@ -213,8 +213,10 @@
     }
     .media-wrapper {
         position: absolute;
-        background: url(../images/assets/bg_05.svg) no-repeat left top;
-        background-size: cover;
+        // background: url(../images/assets/bg_05.svg) no-repeat left top;
+        // background-size: cover;
+        display: flex !important;
+        align-items: center !important;
         border-radius: 0 30px 30px 0;
         top:0;
         bottom: 0;
@@ -656,10 +658,7 @@
     .main-wrapper {
         padding: 50px 0 45px;
         &.top-border {
-            border-top: 1px solid #E2E2E2;
-        }
-        &.bottom-border {
-            border-bottom: 1px solid #E2E2E2;
+            border-top: 2px solid #000;
         }
     }
     h2 {
@@ -672,9 +671,9 @@
             font-size: 18px;
             padding: 0 30px;
             height: 60px;
-            background: #F6F6F6;
-            border: none;
-            border-radius: 35px;
+            background: transparent;
+            border: 2px solid #000;
+            border-radius: 0.8rem;
         }
         button {
             width: 60px;

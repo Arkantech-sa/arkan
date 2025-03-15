@@ -19,7 +19,7 @@ function AddressBlock({
 }) {
   return (
     <div className="address-block-one text-center mb-40 wow fadeInUp">
-      <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
+      <div className="icon rounded-rect d-flex align-items-center justify-content-center m-auto">
         <Image src={icon} alt="icon" className="lazy-img" />
       </div>
       <h5 className="title">{title}</h5>

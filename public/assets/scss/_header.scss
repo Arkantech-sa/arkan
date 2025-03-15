@@ -92,7 +92,7 @@
     .nav-item .nav-link {
         // font-family: $main-font;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 22px;
         line-height: initial;
         color: $text-dark;
         padding: 20px 0;
@@ -160,13 +160,11 @@
     }
     // Menu Five
     &.menu-style-five {
-        background: #000;
+        background: $light-bg-one;
         padding: 0;
         .inner-content {
-            background: #fff;
             border-radius: 30px;
             padding: 10px 40px;
-            border: 1px solid #000;
         }
     }
     &.menu-style-five.fixed {

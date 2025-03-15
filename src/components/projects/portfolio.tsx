@@ -95,7 +95,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="portfolio-one border-100 position-relative pt-150 lg-pt-80 pb-100 lg-pb-60">
+      <div className="portfolio-one position-relative pt-150 lg-pt-80 pb-100 lg-pb-60">
         <div className="container">
           <div className="position-relative">
             <div className="row">
@@ -111,7 +111,7 @@ const Portfolio = () => {
               </ResponsiveMasonry>
             </div>
             <div className="section-btn md-mt-10">
-              <Link href="/projects" className="btn-nine rounded-circle d-inline-flex align-items-center justify-content-center tran3s">
+              <Link href="/projects" className="btn-nine rounded-rect d-inline-flex align-items-center justify-content-center tran3s">
                 <i className="bi bi-arrow-up-right"></i>
               </Link>
             </div>

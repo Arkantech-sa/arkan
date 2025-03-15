@@ -33,39 +33,37 @@ export default function HomePage() {
         <PartnersLogosTwo />
         {/* partner logos end */}
 
-        <div className="light-bg-page-wrapper">
-          {/* What we do start */}
-          <WhatWeDo />
-          {/* What we do end */}
+        {/* What we do start */}
+        <WhatWeDo />
+        {/* What we do end */}
 
-          {/* About us start */}
-          <AboutUs style_2={true} />
-          {/* About us end */}
+        {/* About us start */}
+        <AboutUs style_2={true} />
+        {/* About us end */}
 
-          {/* Services start */}
-          <Services />
-          {/* Services end */}
+        {/* Services start */}
+        <Services />
+        {/* Services end */}
 
-          {/* portfolio start */}
-          <Portfolio />
-          {/* portfolio end */}
+        {/* portfolio start */}
+        <Portfolio />
+        {/* portfolio end */}
 
-          {/* Testimonials start */}
-          <FeedbackFive />
-          {/* Testimonials end */}
+        {/* Testimonials start */}
+        <FeedbackFive />
+        {/* Testimonials end */}
 
-          {/* Blogs start */}
-          <BlogsHomeFive />
-          {/* Blogs end */}
+        {/* Blogs start */}
+        <BlogsHomeFive />
+        {/* Blogs end */}
 
-          {/* newsletter banner start */}
-          <NewsletterBanner />
-          {/* newsletter banner end */}
+        {/* newsletter banner start */}
+        <NewsletterBanner />
+        {/* newsletter banner end */}
 
-          {/* footer start */}
-          <FooterFive />
-          {/* footer end */}
-        </div>
+        {/* footer start */}
+        <FooterFive />
+        {/* footer end */}
       </main>
     </div>
   );

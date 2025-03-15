@@ -177,8 +177,8 @@
 }
 // Blog Section Five
 .blog-section-five {
-    background: #e9eef1;
-    border: 1px solid #000;
+    background: $light-bg-one;
+    border-top: 1px solid #000;
     z-index: 5;
     .section-btn {
         position: absolute;

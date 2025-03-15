@@ -44,7 +44,7 @@ interface Service {
   small_description: string;
 }
 
-const Services = ({ border }: { border?: string }) => {
+const Services = () => {
   const { data: services, isLoading, isError } = useServices();
 
 
@@ -57,7 +57,7 @@ const Services = ({ border }: { border?: string }) => {
         data-wow-delay="0.1s"
       >
         <div className="card-style-twenty d-flex position-relative z-1 tran3s w-100 mt-50 md-mt-30">
-          <div className="icon rounded-circle d-flex align-items-center justify-content-center">
+          <div className="icon d-flex align-items-center justify-content-center">
             <Image
               src={service.icon_image}
               width={40}
@@ -85,8 +85,8 @@ const Services = ({ border }: { border?: string }) => {
 
 
   return (
-    <div className={`feedback-section-five ${border ? `border-${border}` : 'border-100'} position-relative`}>
-      <div className="bg-wrapper light-bg-deep border-40 position-relative z-1 pt-120 lg-pt-80 pb-150 lg-pb-80">
+    <div className="feedback-section-five position-relative">
+      <div className="bg-wrapper position-relative z-1 pt-120 lg-pt-80 pb-150 lg-pb-80">
         <div className="container">
           <div className="position-relative">
             <div className="row">

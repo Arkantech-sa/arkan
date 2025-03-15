@@ -24,7 +24,7 @@ const BlogGridItem = ({ blog }: { blog: IBlog }) => {
             <h4>{blog.title}</h4>
           </Link>
           <Link href={`/blog-details/${blog.id}`}
-            className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
+            className="round-btn rounded-rect d-flex align-items-center justify-content-center tran3s"
           >
             <i className="bi bi-arrow-up-right"></i>
           </Link>

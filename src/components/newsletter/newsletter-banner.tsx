@@ -11,7 +11,7 @@ const NewsletterBanner = ({ style_2 = false }: { style_2?: boolean }) => {
     <div className="newsletter-banner">
       <Toaster position="top-center" />
       <div className="container">
-        <div className={`main-wrapper ${style_2 ? "" : "top-border"} bottom-border`}>
+        <div className={`main-wrapper ${style_2 ? "" : "top-border"}`}>
           <div className="row">
             <div className="col-lg-6">
               <h2 className={`${style_2 ? "" : "text-dark"} fw-bold`}>
@@ -33,7 +33,7 @@ const NewsletterBanner = ({ style_2 = false }: { style_2?: boolean }) => {
                     required
                     disabled={isLoading}
                   />
-                  <button className="rounded-circle tran3s" type="submit" disabled={isLoading}>
+                  <button className="rounded-rect tran3s" type="submit" disabled={isLoading}>
                     {isLoading ? <i className="bi bi-arrow-repeat"></i> : <i className="bi bi-arrow-right"></i>}
                   </button>
                 </div>

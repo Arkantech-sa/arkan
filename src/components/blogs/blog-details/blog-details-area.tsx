@@ -47,7 +47,7 @@ const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
                   </p>
                   <div className="quote-wrapper">
                     <div className="wrapper">
-                      <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
+                      <div className="icon rounded-rect d-flex align-items-center justify-content-center m-auto">
                         <Image
                           src={icon}
                           alt="icon"

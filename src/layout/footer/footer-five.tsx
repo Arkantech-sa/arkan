@@ -8,11 +8,11 @@ import FooterSocial from "./footer-social";
 
 const FooterFive = () => {
   return (
-    <div className="footer-five position-relative border-100">
+    <div className="footer-five position-relative">
       <div className="container">
         <div className="row">
           <div className="col-xl-11 m-auto">
-            <h2 className="text-center text-white font-magnita">
+            <h2 className="text-center font-magnita">
               Work Inquiry? Send us message
             </h2>
             <div className="btn-group d-block d-lg-flex justify-content-between align-items-center">
@@ -22,7 +22,7 @@ const FooterFive = () => {
                 </Link>
               </h3>
               <Link href="/contact-us"
-                className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
+                className="round-btn d-flex align-items-center justify-content-center tran3s"
               >
                 <i className="bi bi-arrow-right"></i>
               </Link>

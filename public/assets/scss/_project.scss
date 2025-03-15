@@ -11,8 +11,8 @@
 }
 // Portfolio One
 .portfolio-one {
-    background: #fff;
-    border: 1px solid #000;
+    background: $light-bg-one;
+    border-top: 1px solid #000;
     .section-btn {
       position: absolute;
       inset-inline-end: 0;

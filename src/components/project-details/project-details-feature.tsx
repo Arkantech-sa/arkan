@@ -10,7 +10,7 @@ const ProjectDetailsFeature = () => {
     <div className="row">
       <div className="col-lg-4 wow fadeInUp">
         <div className="card-style-sixteen text-center mt-40 md-mt-20">
-          <div className="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
+          <div className="icon m-auto tran3s rounded-rect d-flex align-items-center justify-content-center">
             <Image
               src={icon_1}
               alt="icon"
@@ -25,7 +25,7 @@ const ProjectDetailsFeature = () => {
       </div>
       <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
         <div className="card-style-sixteen text-center arrow position-relative mt-40">
-          <div className="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
+          <div className="icon m-auto tran3s rounded-rect d-flex align-items-center justify-content-center">
             <Image
               src={icon_2}
               alt="icon"
@@ -40,7 +40,7 @@ const ProjectDetailsFeature = () => {
       </div>
       <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
         <div className="card-style-sixteen text-center mt-40">
-          <div className="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
+          <div className="icon m-auto tran3s rounded-rect d-flex align-items-center justify-content-center">
             <Image
               src={icon_3}
               alt="icon"

@@ -42,7 +42,7 @@ const AboutUs = ({ style_2 = false }: { style_2?: boolean }) => {
   return (
     <>
       {!style_2 && (
-        <div className="text-feature-one mt-150 lg-mt-100">
+        <div className="text-feature-one pt-50 lg-pt-70">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-5 col-lg-6 wow fadeInLeft">
@@ -79,7 +79,7 @@ const AboutUs = ({ style_2 = false }: { style_2?: boolean }) => {
         </div>
       )}
       {style_2 && (
-        <div className="text-feature-one mt-150 lg-mt-80">
+        <div className="text-feature-one pt-50 lg-pt-80">
           <div className="container">
             <div className="line-wrapper position-relative">
               <div className="row align-items-center">
@@ -104,7 +104,7 @@ const AboutUs = ({ style_2 = false }: { style_2?: boolean }) => {
               <Image src={shape} alt="shape" className="lazy-img shapes shape_01" />
             </div>
 
-            <div className="counter-wrapper mt-80 lg-mt-20">
+            <div className="counter-wrapper mt-30 pb-40 lg-mt-20">
               <div className="row">
                 <CounterBlock num={2} text="K+" title="Partner with us" delay="0" />
                 <CounterBlock num={1.3} text="b+" title="Cumulative trading volume" delay="2" />

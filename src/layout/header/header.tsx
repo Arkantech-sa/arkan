@@ -3,14 +3,18 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 // internal
-import logo from "@/assets/images/logo/favicon.ico";
+// import logo from "@/assets/images/logo/favicon.ico";
 import useSticky from "@/hooks/use-sticky";
 import Navbar from "./navbar";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useConfigurations } from "@/hooks/useConfigurations";
 
 const Header = () => {
   const { sticky } = useSticky();
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const { data: config, isLoading, isError } = useConfigurations();
+
+  console.log("config", config);
 
   const toggleNavbar = () => {
     setIsNavOpen(!isNavOpen);
@@ -22,8 +26,8 @@ const Header = () => {
         <div className="top-header position-relative">
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
-              <Link href="/" className="d-flex align-items-center">
-                <Image src={logo} alt="logo" width={100} height={100} />
+              <Link href="/" className="d-flex align-items-center rounded-3 overflow-hidden">
+                <Image src={config?.[0]?.logo} alt="logo" width={100} height={100} />
               </Link>
             </div>
             <div className="right-widget ms-auto ms-lg-0 me-3 me-lg-0 order-lg-3">

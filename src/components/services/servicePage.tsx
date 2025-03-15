@@ -51,7 +51,7 @@ const ServicesPage = ({ border }: { border?: string }) => {
                 data-wow-delay="0.1s"
             >
                 <div className="card-style-twenty d-flex position-relative z-1 tran3s w-100 mt-50 md-mt-30">
-                    <div className="icon rounded-circle d-flex align-items-center justify-content-center">
+                    <div className="icon rounded-rect d-flex align-items-center justify-content-center">
                         <Image
                             src={service.icon_image}
                             width={40}

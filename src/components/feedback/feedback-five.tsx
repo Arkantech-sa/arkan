@@ -25,9 +25,9 @@ const imgStyle = {
 }
 
 
-const FeedbackFive = ({ border }: { border?: string }) => {
+const FeedbackFive = () => {
   return (
-    <div className={`feedback-section-five ${border ? `border-${border}` : 'border-100'} position-relative pt-225 xl-pt-200 lg-pt-120 md-pt-80 pb-300 xl-pb-200 lg-pb-150`}>
+    <div className={`feedback-section-five position-relative pt-120 xl-pt-120 lg-pt-120 md-pt-80 pb-80 xl-pb-80 lg-pb-80`}>
       <div className="container">
         <div className="position-relative">
           <Slider {...slider_setting} className="feedback-slider-three">
@@ -43,8 +43,8 @@ const FeedbackFive = ({ border }: { border?: string }) => {
           </Slider>
         </div>
       </div>
-      {/* <Image src={shape_1} alt="shape" className="lazy-img shapes shape_01" style={imgStyle}/> */}
-      <Image src={shape_2} alt="shape" className="lazy-img shapes shape_02" style={imgStyle} />
+      {/* <Image src={shape_1} alt="shape" className="lazy-img shapes shape_01" style={imgStyle} /> */}
+      {/* <Image src={shape_2} alt="shape" className="lazy-img shapes shape_02" style={imgStyle} /> */}
     </div>
   );
 };
